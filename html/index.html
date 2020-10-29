@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado Usuarios</title>
+    <link rel="stylesheet" href="../css/style.css"/>
+</head>
+<body>
+    <h1>Listado de Usuarios</h1>
+    <div>
+        <p>Puedes buscar por cualquier campo de la tabla</p>
+        <label>Filtrado: </label>
+        <input id="search" type="text" placeholder="Search..."/>
+    </div>
+    <br><br>
+    <table style="width:100%">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Username</th>
+                <th>Email</th>
+                <th>Phone</th>
+            </tr>
+        </thead>
+        <tbody id="tabla">
+            <tr>
+                <td id="valor1">Juan Garcia</td>
+                <td id="valor2">juan.garcia</td>
+                <td id="valor3">juangarcia@gmail.com</td>
+                <td id="valor4">654232526</td>
+            </tr>
+            <tr>
+                <td id="valor1">Manuela Pérez</td>
+                <td id="valor2">manuela.perez</td>
+                <td id="valor3">manuelap@hotmail.es</td>
+                <td id="valor4">674202122</td>
+            </tr>
+            <tr>
+                <td id="valor1">Ainhoa Fernández</td>
+                <td id="valor2">ainhoa.fernandez</td>
+                <td id="valor3">ainhoa_f@hotmail.com</td>
+                <td id="valor4">500898987</td>
+            </tr>
+            <tr>
+                <td id="valor1">Juan Martínez</td>
+                <td id="valor2">juan.martinez</td>
+                <td id="valor3">jm@gmail.com</td>
+                <td id="valor4">326594155</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+<script src="../js/jquery-3.5.1.min.js"></script>
+<script src="../js/filtrado.js"></script>
+<script src="../js/detalleUser.js"></script>
+</html>
